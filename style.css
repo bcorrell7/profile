@@ -1,0 +1,109 @@
+body {
+  background-color: #DCE1DE;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  padding-top:20px;
+  background: linear-gradient(to bottom, var(#ff9800) 0%, var(#ff9800) 100%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 3px 3px;
+  color: #000;
+  width: 150px;
+  display: inline-block;
+}
+
+
+h1:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+  width: 150px;
+}
+
+h2{
+  font-family: 'Oxygen', sans-serif;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+div {
+  background-color: #fff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+  width: 500px;
+  margin: 20px auto;
+  padding: 40px;
+  border-radius: 14px;
+}
+
+div:hover{
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .2);
+}
+
+.btn-dkblue{
+    width: 50px;
+    background-color: #001021;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.btn-dkblue:hover{
+    width: 50px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    border: 4px solid #ff9800;
+    color: #ff9800;
+}
+
+#header-space{
+  margin: 45px auto;
+}
+
+#header-space p{
+  padding-bottom: 15px;
+}
+
+
+.text-center{
+  text-align: center;
+}
+
+.list-inline li {
+  list-style: none;
+  display: inline-block;
+  margin: 10px;
+}
+
+#picture-align{
+  position: absolute;
+  border-radius: 50%;
+  margin: -61px -127px;
+}
+
+.icons-big-blue i{
+  color:#001021;
+  font-size: 25px;
+}
+
+.icons-big-blue i:hover{
+  color:#ff9800;
+  font-size: 25px;
+}
+
+.icons-spacing{
+  padding-left:0;
+}
+
+
+
+
