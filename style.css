@@ -1,5 +1,7 @@
 body {
   background-color: #DCE1DE;
+  background-image: url('images/pattern3.jpg');
+  background-size: inherit;
 }
 
 h1{
